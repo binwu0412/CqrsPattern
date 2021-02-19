@@ -1,8 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-CqrsPattern.Mvc-AC63E5EA-DD90-48B2-9616-E05DD62E1F91</UserSecretsId>
+    <UserSecretsId>aspnet-WebApplication1-3FC391A3-10C5-455A-B669-AB00E64424E5</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
