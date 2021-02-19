@@ -13,9 +13,24 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CqrsPattern.Data", "CqrsPat
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CqrsPattern.Presentation", "CqrsPattern.Presentation", "{C6C80183-CC32-4D9C-B81A-7D176932D545}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsPattern.Mvc", "CqrsPattern.Mvc\CqrsPattern.Mvc.csproj", "{9AB7F92E-6DC5-48A1-9C7B-F1566B426C2C}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AB7F92E-6DC5-48A1-9C7B-F1566B426C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AB7F92E-6DC5-48A1-9C7B-F1566B426C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AB7F92E-6DC5-48A1-9C7B-F1566B426C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AB7F92E-6DC5-48A1-9C7B-F1566B426C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AB7F92E-6DC5-48A1-9C7B-F1566B426C2C} = {C6C80183-CC32-4D9C-B81A-7D176932D545}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {178DAF3F-2959-43DB-86EF-371BC893D7F3}
