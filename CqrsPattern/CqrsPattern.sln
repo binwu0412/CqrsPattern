@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsPattern.Mvc", "CqrsPatt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsPattern.Domain", "CqrsPattern.Domain\CqrsPattern.Domain.csproj", "{4F5D64DC-67FE-4ADA-A44A-92FDCB50DD7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cqrs.Infra.Data", "Cqrs.Infra.Data\Cqrs.Infra.Data.csproj", "{AD34B2B6-A9E5-4E87-82E0-0187B241FC44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{4F5D64DC-67FE-4ADA-A44A-92FDCB50DD7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F5D64DC-67FE-4ADA-A44A-92FDCB50DD7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F5D64DC-67FE-4ADA-A44A-92FDCB50DD7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD34B2B6-A9E5-4E87-82E0-0187B241FC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD34B2B6-A9E5-4E87-82E0-0187B241FC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD34B2B6-A9E5-4E87-82E0-0187B241FC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD34B2B6-A9E5-4E87-82E0-0187B241FC44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -38,6 +44,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9AB7F92E-6DC5-48A1-9C7B-F1566B426C2C} = {C6C80183-CC32-4D9C-B81A-7D176932D545}
 		{4F5D64DC-67FE-4ADA-A44A-92FDCB50DD7B} = {D50A3372-34F3-4041-9757-914D463CAC30}
+		{AD34B2B6-A9E5-4E87-82E0-0187B241FC44} = {A5F28268-F28B-402D-9CC7-AA958F7AF46A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {178DAF3F-2959-43DB-86EF-371BC893D7F3}
