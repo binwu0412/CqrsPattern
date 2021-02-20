@@ -5,9 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="ViewModels\" />
-    <Folder Include="Services\" />
+    <ProjectReference Include="..\CqrsPattern.Domain\CqrsPattern.Domain.csproj" />
   </ItemGroup>
 
 </Project>

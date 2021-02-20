@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cqrs.Infra.Data\Cqrs.Infra.Data.csproj" />
+    <ProjectReference Include="..\Cqrs.Infra.Data\CqrsPattern.Infra.Data.csproj" />
   </ItemGroup>
 
 </Project>
