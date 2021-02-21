@@ -21,7 +21,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Cqrs.Infra.Data\CqrsPattern.Infra.Data.csproj" />
     <ProjectReference Include="..\CqrsPattern.Infra.IoC\CqrsPattern.Infra.IoC.csproj" />
   </ItemGroup>
 
