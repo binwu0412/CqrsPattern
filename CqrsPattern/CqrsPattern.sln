@@ -29,6 +29,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsPattern.Infra.Bus", "CqrsPattern.Infra.Bus\CqrsPattern.Infra.Bus.csproj", "{CDD12D8C-74DD-45F4-9BE2-D12650951381}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsPattern.Domain.Core", "CqrsPattern.Domain.Core\CqrsPattern.Domain.Core.csproj", "{B97F1B90-53E7-44C9-B38A-5785EE939A26}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{CDD12D8C-74DD-45F4-9BE2-D12650951381}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CDD12D8C-74DD-45F4-9BE2-D12650951381}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CDD12D8C-74DD-45F4-9BE2-D12650951381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B97F1B90-53E7-44C9-B38A-5785EE939A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B97F1B90-53E7-44C9-B38A-5785EE939A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B97F1B90-53E7-44C9-B38A-5785EE939A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B97F1B90-53E7-44C9-B38A-5785EE939A26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +76,7 @@ Global
 		{25CB3820-ECE6-41C6-B932-43E6BC6C7062} = {104AAD42-BC92-422B-9421-158790341815}
 		{22F042D1-C9C7-4ED2-AB70-6BE79F4296AF} = {CF719ADA-3BE0-4071-824D-6D57B69B3CA8}
 		{CDD12D8C-74DD-45F4-9BE2-D12650951381} = {B9DE697D-7F61-4313-8A63-11B668D32152}
+		{B97F1B90-53E7-44C9-B38A-5785EE939A26} = {D50A3372-34F3-4041-9757-914D463CAC30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {178DAF3F-2959-43DB-86EF-371BC893D7F3}
